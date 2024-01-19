@@ -1,0 +1,60 @@
+/* ------------------------------------- */
+/* CSS Custom Property */
+/* ------------------------------------- */
+
+:root{
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+
+    /* Typography */
+    --body-font: 'DM Sans', sans-serif;
+
+    /* Font Size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-32: 32px;
+    --fs-34: 34px;
+}
+
+/* ------------------------------------- */
+/* Basic Setup */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+/* ------------------------------------- */
+/* Reusable Component */
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/* Header Section */
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+/* Footer Section */
+/* ------------------------------------- */
